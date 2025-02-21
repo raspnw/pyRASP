@@ -1,0 +1,4 @@
+[
+{ "country": "USA", "state": "CA", "area": "PANOCHE", "name": "Center1", "lat": 36.5, "lon": -120.7, "domain": 1 },
+{ "country": "USA", "state": "CA", "area": "PANOCHE", "name": "Center2", "lat": 36.5, "lon": -120.7, "domain": 2 }
+]

@@ -1,0 +1,41 @@
+- code cleanup: convert elevation class to module methods
+- code cleanup: explore converting elevation data in python
+- code cleanup: explore converting elevation data conversion to using python GDAL
+- code cleanup: move site code to separate module
+- code cleanup: move region module to wxtofly or rasp root
+- code cleanup: remove dependency on Region from rasp.modelrun
+- code cleanup: add ftp password and username to publish config instead of obtaining from .netrc
+
+
+- logging: clean up logging and add module/job field
+- logging: move wxtofly log to run folder
+- logging: wxtofly log seems missing postprocessing logs
+
+
+- modelrun: adjust start time for nested runs
+- modelrun: modify namelist.input to match v2
+- modelrun: WRF patch - http://www.drjack.info/twiki/bin/view/RASPop/OperatorCompilation
+
+
+- plotting: plots transparent background
+- plotting: SVG plots - will probably require rewritting NCL scripts
+- plotting: plots do not have fixed scale
+- plotting: some params plots missing in v3 (tenmwind, rhblmax)
+- plotting: support space in windgram names
+
+
+- RASP: add temp at ToL
+- RASP: add wind at ToL
+
+
+- map: add airspace to map
+- map: add xcfind to map
+- map: implement realEarth layer to display radar
+- map: add wind
+- map: add plot timestamp
+- map: implement NOAA point forecast
+- map: NOTAMs API (key: 8c5c1230-8b8b-11e9-9109-6186fe0a73a2) - https://www.icao.int/safety/iStars/Pages/API-Data-Service.aspx
+
+
+- web: implement NOAA point forecast control
+- web: caching using Cache-Control request header

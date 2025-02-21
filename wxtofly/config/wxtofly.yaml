@@ -1,0 +1,97 @@
+# time offset from GRIB init time
+# jobs are now started until init time + this offset
+start_time_offset: 90
+# max age of log and run files to keep
+files_max_age_hours: 12
+# Detrmines whether wxtofly log is being continuously published to server
+# publish is trigered with each new message
+live_log: true
+# Detrmines whether all run logs are published to server after each job run
+upload_run_logs: true
+
+web:
+  server: 'wxtofly.net'
+  root_path: 'beta'
+  jobs_path: 'json/jobs.json'
+  region_root_path: 'regions'
+
+# Configuration for data visualization and plotting
+postprocessing:
+  blipspot:
+    grid: false
+    sites: true
+    variables:
+      - terhgt
+      - geophgt
+      - hbl 
+      - dbl
+      - hwcrit
+      - dwcrit
+      - hglider
+      - wstar
+      - sfcshf
+      - bltopvariab
+      - bsratio
+      - blwind
+      - blwindshear
+      - wblmaxmin
+      - cape
+      - zsfclcldif
+      - zsfclcl
+      - zblcldif
+      - zblcl
+      - blcloudpct
+      - sfctemp
+      - sfcdewpt
+      - sfcsun
+      - sfcsunpct
+      - blcloudpct
+      - blcwbase
+      - bltopwind
+      - mslpress
+      - rain1
+      - metwind
+      - metwind10
+  soundings:
+    # If yes sounding plots will be created for all sites
+    enabled: false
+  windgrams:
+    # If yes windgram plots will be created for all sites
+    enabled: true
+
+  plots:
+    # If yes plots will be created for selected parameters 
+    enabled: true
+    # Unit system used in plots.
+    # Allowed values are metric and imperial
+    units: imperial
+    # List of parameters to create plots and data files for
+    # This list is validated against rasp_variables.yaml
+    variables:
+      - hbl 
+      - dbl
+      - hwcrit
+      - dwcrit
+      - hglider
+      - wstar
+      - sfcshf
+      - bltopvariab
+      - bsratio
+      - blwind
+      - blwindshear
+      - wblmaxmin
+      - cape
+      - zsfclcldif
+      - zsfclcl
+      - zblcldif
+      - zblcl
+      - blcloudpct
+      - sfctemp
+      - sfcdewpt
+      - sfcsun
+      - sfcsunpct
+      - blcloudpct
+      - blcwbase
+      - bltopwind
+      - mslpress
+      - rain1

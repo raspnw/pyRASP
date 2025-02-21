@@ -1,0 +1,12 @@
+#
+# RASP Publish Configuration
+#
+
+enabled: true
+method: 'ftp'
+upload_queue_path: '{base_path}/publish'
+ftp:
+  server: 'wxtofly.net'
+  root_path: 'html/beta'
+copy:
+  root_path: '/home/jiri/win_share/v3/rasp/web'

@@ -1,0 +1,17 @@
+# NCL configuration settings
+ncl:
+  # The NCL root path
+  # Latest NCL binaries can be downloaded from https://www.ncl.ucar.edu/Download/
+  # The folder where the NCL binaries are extracted is the NCL root path, aka NCARG_ROOT
+  # These sub-folders should be present under the root path: bin, lib, include
+  # This application takes care of setting necessary environmental variable to run ncl 
+  root_path: '{base_path}/ncl'
+  # This is the path where RASP ncl scripts are located
+  # Note: NCL is executed from this path
+  script_path: '/home/jiri/win_share/v3/rasp/NCL_rasp'
+  # Path to database RANGS (Regionally Accessible Nested Global Shorelines) files
+  # for more details see https://www.ncl.ucar.edu/Document/Graphics/rangs.shtml
+  # files can be donwloaded from https://www.io-warnemuende.de/rangs-en.html
+  #rangs_path: '{base_path}/ncl/rangs'
+  drjack_lib: '{base_path}/ncl/drjack/ncl_jack_fortran.so'
+  colormap_path: '{base_path}/ncl/lib/ncarg/colormaps'

@@ -1,0 +1,27 @@
+#
+# RASP Root Configuration
+#
+
+# This is the root directory of the RASp installation
+# It can be referenced as {base_path} in other path settings
+base_path: '/home/jiri/wx3'
+
+# This is the root directory containing region directories
+# A directory of the same name as the region name is expected
+region_base_path: '{base_path}'
+
+gdal_win_path: 'c:\Program Files\GDAL'
+
+setup:
+  wrf_version: '4.1'
+  packages: ['build-essential', 'csh', 'gfortran', 'm4', 'cmake', 'ntp', 'python3-pip', 'libgfortran3', 'gdal-bin']
+  ncl:
+    precompiled_bin_path: '~/win_share/v3/ncl_binary/ncl_ncarg-6.6.2-Debian9.8_64bit_nodap_gnu630.tar.gz'
+    ncl_files_path: '~/win_share/v3/ncl_binary/ncl/ncl.tar.gz'
+
+network:
+  # If a proxy server is required to access the internet, uncomment the section below
+  # The proxy settings format is [protocol]: '[server]'
+  proxies:
+  #  http: 'http://10.200.123.45'
+  #  https: 'https://10.200.123.45'

@@ -1,0 +1,33 @@
+srtm_csi_90m:
+  description: 'Hole-filled seamless SRTM 3 arc second data, version 4'
+  # relative path in data folder
+  bounding_boxes_json: 'csi/srtm30_5x5.json'
+  citation: 'Jarvis A., H.I. Reuter, A. Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data V4, International Centre for Tropical Agriculture (CIAT), available from http://srtm.csi.cgiar.org.'
+  download_url: 'http://srtm.csi.cgiar.org/wp-content/uploads/files/srtm_5x5/TIFF/{filename}'
+  tile_overlap: 1
+
+srtm_nasa_l1_v3:
+  description: 'NASA Shuttle Radar Topography Mission Global 1 arc second, version 3'
+  bounding_boxes_json: 'nasa/SRTMGL1.003.json'
+  citation: 'NASA JPL.NASA Shuttle Radar Topography Mission Global 1 arc second. 2013, distributed by NASA EOSDIS Land Processes DAAC, https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003.'
+  download_url: 'https://e4ftl01.cr.usgs.gov/MEASURES/SRTMGL1.003/2000.02.11/{filename}'
+  username: 'wxtofly'
+  password: 'TigerMt56&'
+  tile_overlap: 1
+
+srtm_nasa_l3_v3:
+  description: 'NASA Shuttle Radar Topography Mission Global 3 arc second, version 3'
+  bounding_boxes_json: 'nasa/SRTMGL3.003.json'
+  citation: 'NASA JPL.NASA Shuttle Radar Topography Mission Global 3 arc second. 2013, distributed by NASA EOSDIS Land Processes DAAC, https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003.'
+  download_url: 'https://e4ftl01.cr.usgs.gov/MEASURES/SRTMGL3.003/2000.02.11/{filename}'
+  username: 'wxtofly'
+  password: 'TigerMt56&'
+  tile_overlap: 1
+
+jaxa_aw3d30:
+  description: 'ALOS Global Digital Surface Model, ALOS World 3D - 30m (AW3D30)'
+  bounding_boxes_json: 'alos/AW3D30.json'
+  citation: 'Provided by Japan Aerospace Exploration Agency https://www.eorc.jaxa.jp/ALOS/en/aw3d30/'
+  download_url: 'ftp://ftp.eorc.jaxa.jp/{path}/{filename}'
+  filename_mask: '*_DSM.tif'
+  tile_overlap: 0

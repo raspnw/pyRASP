@@ -1,0 +1,26 @@
+#
+# Region Configuration File
+#
+
+# Region section
+region:
+  # Region name
+  # Directory of the same name must exists under installation base path
+  # The directory must contain these files:
+  #   namelist.wps[.template]
+  #   namelist.input[.template]
+  #   region.yaml
+  name: 'TIGER'
+  # GRIB source name
+  # This setting defines what GRIB files to use for this region
+  # The source name must be defined in grib.yaml
+  grib_source: 'NAMCONUS12'
+
+forecast:
+  local_time:
+    #for better results this should be less then start hour for higher domain
+    start: 8
+    end: 20
+
+site_files:
+  - sites.json

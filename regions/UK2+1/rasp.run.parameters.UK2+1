@@ -1,0 +1,133 @@
+#############################################################################
+################## RUN-ARGUMENT-SPECIFIC RASP PARAMETERS ####################
+#############################################################################
+### For updated information on these model parameters see                 ###
+### http://www.drjack.info/twiki/bin/view/RASPop/RunParametersDescription ###
+#############################################################################
+
+###### SET REGIONS PROCESSED BY THIS RUN
+  @REGION_DOLIST = ( 'UK2+1' );
+###### SET MODEL USED FOR DOWNLOADED GRIB FILES
+  ###    ( USA=ETA WORLD=GFS/AVN )
+  # $GRIBFILE_MODEL = 'GFSN' ;
+  # See ftp2u_subregion.pl for changes to use 0.25deg gfs regional data
+  $GRIBFILE_MODEL  = 'GFSA' ;
+  $GRIB_LEFT_LON   = -15 ;
+  $GRIB_RIGHT_LON  =   7 ;
+  $GRIB_BOTTOM_LAT =  47 ;
+  $GRIB_TOP_LAT    =  65 ;
+     ### must agree with INIT_ROOT,LBC_ROOT in ../WRF/WRFSI/domains/REGIONXYZ/static/wrfsi.nl
+     ### and if windowed run also in WRF/WRFSI/domains/REGIONXYZ-WINDOW/static/wrfsi.nl
+  #alternate:    $GRIBFILE_MODEL = 'AVN' ;
+  #alternate:    $AVN_LEFT_LON = -13 ; $AVN_RIGHT_LON = 6 ; $AVN_BOTTOM_LAT = 47 ; $AVN_TOP_LAT = 62 ; 
+  #TESTING  $gribavailhrzoffset = +0.0 ;
+
+###### SET OPTIONAL WEBSITE FILE CREATION (can be bypassed by certain run arguments)
+  ### $LSEND=  0 = images produced only in local "RASP/RUN/OUT" subdirectory
+  ##           1 = copy images to web directory using filenames pre-pended with "test"
+  ##           2 = copy images to web directory using normal filenames 
+  ##           -1,-2 = ftp images to remote server (NOT OPERATIONALLY TESTED)
+  ##           3 = also do firstofday processing (NOT IMPLEMENTED)
+  ### uses test so will not overwrite if set by run argument
+  if( ! defined $LSEND ) { $LSEND =  2; }
+
+###### SET OPTIONAL ARCHIVE FILE CREATION (can be bypassed by certain run arguments)
+  ### $LSAVE=  0 = inhibits all archive saves to preserve disk space
+  ##           1 = saves data files (for a single forecast hour only) - uses least disk space
+  ##           2 = saves data files and images (for a single forecast hour only) - uses much less disk space than $LSAVE=2
+  ##           3 = saves data files and image files (for a single forecast hour only) and initial condition files to a storage directory 
+  ### uses test so will not overwrite if set by run argument
+  ## PAULS - No archiving!!
+  # $LSAVE = 0 ;
+  if( ! defined $LSAVE ) { $LSAVE =  2; }
+
+##################################################################
+#############  START OF REGION DEPENDENT PARAMETERS  #############
+###### SET RUN TYPE
+  ### LRUN_WINDOW 0= no_windowing 2= windowing_run 
+  $LRUN_WINDOW{'UK2+1'} = 0 ;
+
+###### SET BASIC PARAMETER LIST
+@{$PARAMETER_DOLIST{'UK2+1'}} = ('mslpress','sfcwind0','sfcwind','sfcwind2','blwind','bltopwind','dbl','sfctemp','zwblmaxmin','blicw','hbl','dwcrit','wstar','bsratio','sfcshf','zblcl','zblcldif','zblclmask','zsfclcl','zsfclcldif','zsfclclmask','blcwbase','hwcrit','press1000','press950','press850','press700','press500','bltopvariab','wblmaxmin','zwblmaxmin','blwindshear','sfctemp','sfcdewpt','cape','rain1','wstar_bsratio','blcloudpct','sfcsunpct','hglider','experimental1','stars','starshg');
+###### ADD POSSIBLE SOUNDINGS  (corresponding data must be set in file ../WRF/NCL/rasp.ncl.region.data)
+  push @{$PARAMETER_DOLIST{'UK2+1'}}, ( 'sounding1','sounding2','sounding3','sounding4','sounding5','sounding6','sounding7','sounding8','sounding9','sounding10', 'sounding11', 'sounding12', 'sounding13', 'sounding14', 'sounding15' );  
+
+######  SET GRID LOCAL TIME
+#  $LOCALTIME_ID{'UK2+1'} = 'GMT' ;
+#  $LOCALTIME_ADJ{'UK2+1'} = +0 ; 
+
+  $LOCALTIME_ID{'UK2+1'}  = substr `date +%Z`,0,3;
+  $LOCALTIME_ADJ{'UK2+1'} = substr `date +%z`,0,3;
+
+
+###### SET GRIB FILE PROCESSING 
+  ### GRIBFILES_PER_FORECAST_PERIOD IS NUMBER OF GRIB FILES PROCESSED AT SAME TIME
+  $GRIBFILES_PER_FORECAST_PERIOD{'UK2+1'} = 5 ;
+  ### BLIPMAPFILEDOLIST LISTS ALL GRIB FILES NEEDED
+  %GRIBFILE_DOLIST = ( 'UK2+1'   => [ '18Z+12','18Z+15','18Z+18','18Z+21','18Z+24' ], );
+
+###### SET DOMAIN PARAMETERS FOR STAGE1 [NON-WINDOW] ITERATION
+  $FORECAST_PERIODHRS{'UK2+1'}[0]              = 12; # used only by initialization programs
+  $BOUNDARY_UPDATE_PERIODHRS{'UK2+1'}[0]       = 3;  # used only by initialization programs
+  $NDOWN_BOUNDARY_UPDATE_PERIODHRS{'UK2+1'}[0] = 0;  ### should always be 0 for non-windowed case
+
+### SET DOMAIN START/END TIMES
+  $DOMAIN1_STARTHH{'UK2+1'}[0]         = '06';  # must have grib file available for this time
+  $DOMAIN1_ENDHH{'UK2+1'}[0]           = '18';              
+  $DOMAIN2_START_DELTAMINS{'UK2+1'}[0] = 0;     # if non-zero, must set namelist.template INPUT_FROM_FILE=false
+  $DOMAIN2_END_DELTAMINS{'UK2+1'}[0]   = 0;     # relative to domain1
+  $DOMAIN3_START_DELTAMINS{'UK2+1'}[0] = 360;   # if non-zero, must set namelist.template INPUT_FROM_FILE=false
+  $DOMAIN3_END_DELTAMINS{'UK2+1'}[0]   = -180;  # relative to domain1
+  $DOMAIN1_TIMESTEP{'UK2+1'}[0]        = 108;
+
+### SET BLIPMAP IMAGE SIZES  - 1st,2nd value for 1st,2nd domain - blank=NOplot
+  @{$PLOT_IMAGE_SIZE{'UK2+1'}[0]} = ( '', '1600x1600' );
+
+  # With such a large domain, the 25 copies of ncl (1 per time in PLOT_HHMMLIST) sends the system into swap
+  #   # See GM.pl (Search MAX_NCL_PROCS )
+  $MAX_NCL_PROCS = 15;
+
+### SET HISTORY HOUR FOR IMAGES PLOTTED WHEN $PLOT_IMAGE_SIZE FOR THAT DOMAIN NOT BLANK
+  # @{$PLOT_HHMMLIST{'UK2+1'}[0]} =  ( '0600', '0700', '0800', '0900', '1000', '1100', '1200', '1300', '1400', '1500', '1600', '1700', '1800' );
+  # @{$SAVE_PLOT_HHMMLIST{'UK2+1'}[0]} =  ( '0600', '0700', '0800', '0900', '1000', '1100', '1200', '1300', '1400', '1500', '1600', '1700', '1800' );
+  @{$PLOT_HHMMLIST{'UK2+1'}[0]}      =  ( '0600','0630','0700','0730','0800','0830','0900','0930','1000','1030','1100','1130','1200','1230','1300','1330','1400','1430','1500','1530','1600','1630','1700','1730','1800' );
+  @{$SAVE_PLOT_HHMMLIST{'UK2+1'}[0]} =  ( '0600','0630','0700','0730','0800','0830','0900','0930','1000','1030','1100','1130','1200','1230','1300','1330','1400','1430','1500','1530','1600','1630','1700','1730','1800' );
+  # *NB* times must also be in  @{$PLOT_HHMMLIST{'UK2+1'}[0]}
+  # @{$PLOT_LOOP_HHMMLIST{'UK2+1'}[0]} = ( 'title', '0600', '0700', '0800', '0900', '1000', '1100', '1200', '1300', '1400', '1500', '1600', '1700', '1800' );
+
+
+###### FOR WINDOWED ITERATION (not used if no windowing done)
+# PAULS - CRASHES -  $FORECAST_PERIODHRS{'UK2+1'}[1] = 12;       
+  $FORECAST_PERIODHRS{'UK2+1'}[1] = 9;       
+  $BOUNDARY_UPDATE_PERIODHRS{'UK2+1'}[1] = 1;     
+  ### NDOWN_BOUNDARY_UPDATE_PERIODHRS must agree with history output interval (but its in minutes)
+  $NDOWN_BOUNDARY_UPDATE_PERIODHRS{'UK2+1'}[1] = 1;
+  $DOMAIN1_TIMESTEP{'UK2+1'}[1] = 60;
+
+  ### SET DOMAIN START/END TIMES
+  $DOMAIN1_STARTHH{'UK2+1'}[1] = '09';         # must have grib file available at or prior to this time
+  $DOMAIN1_ENDHH{'UK2+1'}[1] = '18';          
+  $DOMAIN2_START_DELTAMINS{'UK2+1'}[1] = 0;     # if non-zero, must set namelist.template INPUT_FROM_FILE=false
+  $DOMAIN2_END_DELTAMINS{'UK2+1'}[1] = 0;     # relative to domain1
+  $DOMAIN3_START_DELTAMINS{'UK2+1'}[1] = 0;     # if non-zero, must set namelist.template INPUT_FROM_FILE=false
+  $DOMAIN3_END_DELTAMINS{'UK2+1'}[1] = 0;     # relative to domain1
+
+  ### SET BLIPMAP IMAGE SIZES  - 1st,2nd value for 1st,2nd domain - blank=NOplot
+  @{$PLOT_IMAGE_SIZE{'UK2+1'}[1]} = ( '', '1000x1000' );
+
+  ### SET HISTORY HOUR FOR IMAGES PLOTTED WHEN $PLOT_IMAGE_SIZE FOR THAT DOMAIN NOT BLANK
+  @{$PLOT_HHMMLIST{'UK2+1'}[1]} = ( '0900', '1000', '1100', '1200', '1300', '1400', '1500', '1600', '1700', '1800' ); 
+
+  ###### CREATE WEBSITE LOOP IMAGES FOR THIS REGION
+  # *NB* times must also be in  @{$PLOT_HHMMLIST{'UK2+1'}[0]}
+  @{$PLOT_LOOP_HHMMLIST{'UK2+1'}[1]} = ( 'title', '0900', '1000', '1100', '1200', '1300','1400', '1500', '1600', '1700', '1800' ) ;
+
+  ### SET HISTORY HOUR FOR IMAGES SAVED WHEN LSAVE>0 AND $PLOT_IMAGE_SIZE FOR THAT DOMAIN NOT BLANK
+  @{$SAVE_PLOT_HHMMLIST{'UK2+1'}[1]} = ( '0900', '1000', '1100', '1200', '1300', '1400', '1500', '1600', '1700', '1800' ); 
+
+##############  END OF REGION DEPENDENT PARAMETERS  ##############
+
+##################################################################
+##########    ADDITIONS MUST BE MADE ABOVE THIS LINE    ##########
+##################################################################
+1.;

@@ -1,0 +1,51 @@
+- pythonpath
+	- add export PYTHONPATH=/home/jiri/win_share/v3/rasp
+
+- install pip3
+	sudo apt-get install python3-pip
+
+- install python packages
+	sudo pip3 install -r /home/jiri/win_share/v3/rasp/requirements.txt
+	
+- create base directory
+	mkdir ~/wx3
+
+- install ubuntu packages
+
+	sudo -s (to open interactive terminal window, cannot use sudo python3 ... because it won't load .bashrc)
+	python3 /home/jiri/win_share/v3/rasp/test/test_install_packages.py
+
+- compile WRF (can be copied from enother machine)
+	python3 /home/jiri/win_share/v3/rasp/rasp/setup/compile.py
+
+- copy ncl
+
+	rsync -avz /home/jiri/win_share/v3/ncl ~/wx3
+	tar -C ~/wx3/ncl -xvf /home/jiri/win_share/v3/ncl_binary/ncl_ncarg-6.4.0-Debian7.11_64bit_nodap_gnu472.tar.gz
+
+- copy regions
+
+	rsync -avz /home/jiri/win_share/v3/regions ~/wx3
+
+- config libraries loading 
+
+	sudo -s (to open interactive terminal window, cannot use sudo python3 ... because it won't load .bashrc)
+	python3 /home/jiri/win_share/v3/rasp/test/test_install_ldconfig.py
+	
+- setup wxtofly
+
+	python3 /home/jiri/win_share/v3/rasp/wxtofly/install.py
+	
+
+
+
+
+
+
+----------------------------------------
+sudo apt-get install build-essential csh gfortran m4 python3-pip libssl-dev gdal-bin cmake libgeos-dev libproj-dev python3-tk
+sudo apt-get install zlib1g-dev libnetcdf-dev libnetcdff-dev libjasper-dev libpng16-dev libmpich-dev
+
+
+sudo pip3 install f90nml keyring netCDF4 numpy pytz scipy timezonefinder ruamel.yaml pyproj psutil python-crontab py-cpuinfo bs4 matplotlib cartopy xarray
+sudo pip3 install f90nml keyring netCDF4 numpy pytz scipy timezonefinder ruamel.yaml pyproj psutil python-crontab py-cpuinfo bs4 matplotlib

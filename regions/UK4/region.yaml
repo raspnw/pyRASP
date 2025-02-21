@@ -1,0 +1,50 @@
+#
+# Region Configuration File
+#
+
+# Region section
+region:
+  # Region name
+  # Directory of the same name must exists under installation base path
+  # The directory must contain these files:
+  #   namelist.wps[.template]
+  #   namelist.input[.template]
+  #   region.yaml
+  name: 'UK4'
+  # GRIB source name
+  # This setting defines what GRIB files to use for this region
+  # The source name must be defined in grib.yaml
+  grib_source: 'GFS025'
+
+forecast:
+  local_time:
+    #for better results this should be less then start hour for higher domain
+    start: 9
+    end: 16
+
+# List of region's sites (points)
+# This list is used for point plots (soundings, windgrams) and blipspot output
+sites:
+
+
+# Configuration for data visualization and plotting
+visualization:
+  # Unit system used in plots.
+  # Allowed values are metric and imperial
+  units: imperial
+  # If yes plots will be created for selected parameters 
+  plot_parameters: true
+  # If yes windgram plots will be created for all sites
+  plot_windgrams: false
+  # If yes sounding plots will be created for all sites
+  plot_soundings: false
+  # List of parameters to create plots and data files for
+  # This list is validated against plot_parameters.yaml
+  parameters:
+    - wstar
+    - bsratio
+    - sfcsunpct
+    - sfcshf
+    - wstar
+    - zblcl
+    - rain

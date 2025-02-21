@@ -1,0 +1,74 @@
+#
+# WRF Model Run Configuration
+#
+
+#ncdump_path: '{base_path}/wrf4.1/LIBRARIES/netcdf/bin/ncdump'
+dump_netcdf: false
+
+# The difference between region forecast start time and WRF run start time in hours
+start_hour_offset: 3
+
+# GRIB file download settings
+grib:
+  # Maximum wait time in munutes to download all requested GRIB files in minutes
+  # 0 means unlimited
+  max_wait_mins: 60
+  # Max number of simultainious downloads
+  max_downloads: 5
+  # [optional] Path where unfiltered GRIB files are stored, default is {base_path}/grib
+  unfiltered_download_path: '{base_path}/grib'
+  # Max age of GRIB files to keep in the download folder
+  max_age_hours: 24
+
+# WRF settings
+wrf:
+  debug_level: 9999
+  # Path to program binary files, e.g. geogrid.exe, ungrib.exe, metgrid.exe, real.exe and wrf.exe
+  # These files must be built from source. See http://www2.mmm.ucar.edu/wrf/OnLineTutorial/compilation_tutorial.php for details
+  #program_path: '{base_path}/wrf4.1/WRF/main'
+  # Path to table and other data files used by WPS and WRF programs
+  # These can be copied from WRF and WPS source packages from following locations:
+  #    WPS\geogrid
+  #    WPS\metgrid
+  #    WRFV3\run
+  #tables_path: '{base_path}/wrf4.1/WRF/run'
+  # Determines whether namelist.input is setup for adaptive time stepping
+  use_adaptive_timestep: false
+  # When use_adaptive_timestep is false a fixed value time_step value for time stepping.
+  # time_step is calculated as time_step_to_dx_to_ratio * DX in km
+  # typically, this is 6*DX
+  time_step_to_dx_to_ratio: 6
+  # Interval of WRF output files in minutes
+  history_interval: 60
+  iofields: ['RQCBLTEN']
+
+# WPS settings
+wps:
+  debug_level: 9999
+  ungrib:
+    #program_path: '{base_path}/wrf4.1/WPS/ungrib'
+    # Path to variables tables used by ungrib.exe program
+    # In WPS source code, these are located in:
+    #    WPS\ungrib\Variable_Tables
+    #tables_path: '{base_path}/wrf4.1/WPS/ungrib/Variable_Tables'
+  # geogrid settings
+  geogrid:
+    #program_path: '{base_path}/wrf4.1/WPS/geogrid'
+    #tables_path: '{base_path}/wrf4.1/WPS/geogrid'
+    geog_download_url: 'http://www2.mmm.ucar.edu/wrf/src/wps_files/'
+    # Path to geographic data sets used by geogrid program
+    # These can be downloaded from http://www2.mmm.ucar.edu/wrf/src/wps_files/
+    # For a complete set download geog_complete and geog_newX.Y (X.Y depends on WRF version used) 
+    #  and combine files from both packages
+    geog_data_path: '{base_path}/geog'
+    # default geog_data_res value used when namelist.wps value is 'default' or
+    # used always when force_geog_data_res is true
+    # setting is required when force_geog_data_res is true
+    # when force_geog_data_res is false and config value is not set, 
+    # no modifications are done to geog_data_res in namelist.wps
+    default_geog_data_res: 'gmted2010_30s+modis_15s+bnu_soil_30s+modis_fpar+30s'
+    force_geog_data_res: true
+  # metgrid settings
+  metgrid:
+    #program_path: '{base_path}/wrf4.1/WPS/metgrid'
+    #tables_path: '{base_path}/wrf4.1/WPS/metgrid'

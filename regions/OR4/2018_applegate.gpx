@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1"
+     creator="GpsDump 5.14"
+     version="1.1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <link href="http://www.gethome.no/stein.sorensen/">
+      <text>GPS dump for www.flightlog.org</text>
+    </link>
+    <time>2018-05-25T03:20:12Z</time>
+    <bounds minlat="42.088597" minlon="-123.383167" maxlat="42.546633" maxlon="-122.624642"/>
+  </metadata>
+  <wpt lat="42.232419" lon="-123.182483">
+    <ele>432.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>CHASLZ</name>
+    <cmt>CHA043</cmt>
+    <desc>CHA043</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.256589" lon="-123.166764">
+    <ele>388.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>APPSTR</name>
+    <cmt>APS039</cmt>
+    <desc>APS039</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.202000" lon="-122.896983">
+    <ele>1567.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>ANDERS</name>
+    <cmt>AND156</cmt>
+    <desc>AND156</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.263117" lon="-122.932683">
+    <ele>826.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>ANDREW</name>
+    <cmt>AND082</cmt>
+    <desc>AND082</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.303200" lon="-123.232267">
+    <ele>368.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>APLINN</name>
+    <cmt>APL036</cmt>
+    <desc>APL036</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.254800" lon="-123.152933">
+    <ele>412.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>APPLEG</name>
+    <cmt>APP041</cmt>
+    <desc>APP041</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.247581" lon="-123.025306">
+    <ele>511.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BAILLZ</name>
+    <cmt>BAI051</cmt>
+    <desc>BAI051</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.324978" lon="-123.201467">
+    <ele>862.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BALD-H</name>
+    <cmt>BAL082</cmt>
+    <desc>BAL082</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.314350" lon="-123.068717">
+    <ele>1211.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BALDY</name>
+    <cmt>BAL121</cmt>
+    <desc>BAL121</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.235683" lon="-122.904500">
+    <ele>952.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BARR-R</name>
+    <cmt>BAR095</cmt>
+    <desc>BAR095</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.283167" lon="-123.176483">
+    <ele>1105.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BILLY</name>
+    <cmt>BIL110</cmt>
+    <desc>BIL110</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.211983" lon="-122.723133">
+    <ele>530.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BILNGS</name>
+    <cmt>BIL053</cmt>
+    <desc>BIL053</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.381969" lon="-123.275822">
+    <ele>1151.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BLUIE</name>
+    <cmt>BLU115</cmt>
+    <desc>BLU115</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.132133" lon="-123.045317">
+    <ele>1042.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BOAZ-M</name>
+    <cmt>BOA104</cmt>
+    <desc>BOA104</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.174200" lon="-122.997317">
+    <ele>510.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BUNCOM</name>
+    <cmt>BUN050</cmt>
+    <desc>BUN050</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.253078" lon="-122.993989">
+    <ele>1016.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>BURNT</name>
+    <cmt>BUR101</cmt>
+    <desc>BUR101</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.199683" lon="-123.042750">
+    <ele>443.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>CAMERO</name>
+    <cmt>CAM044</cmt>
+    <desc>CAM044</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.283033" lon="-122.937350">
+    <ele>794.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>CEMETA</name>
+    <cmt>CEM079</cmt>
+    <desc>CEM079</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.256500" lon="-122.867717">
+    <ele>608.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>DARK-H</name>
+    <cmt>DAR060</cmt>
+    <desc>DAR060</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.228150" lon="-122.813183">
+    <ele>594.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>DONATO</name>
+    <cmt>DON059</cmt>
+    <desc>DON059</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.355383" lon="-123.120650">
+    <ele>452.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>DRAPER</name>
+    <cmt>DRA045</cmt>
+    <desc>DRA045</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.152333" lon="-122.624642">
+    <ele>695.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>EMG-LK</name>
+    <cmt>EMG069</cmt>
+    <desc>EMG069</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.505633" lon="-123.182483">
+    <ele>341.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>EVANS</name>
+    <cmt>EVA034</cmt>
+    <desc>EVA034</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.234439" lon="-123.047750">
+    <ele>456.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>FIASCO</name>
+    <cmt>FIA045</cmt>
+    <desc>FIA045</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.243333" lon="-123.071467">
+    <ele>466.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>FLYAIR</name>
+    <cmt>FLY046</cmt>
+    <desc>FLY046</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.287000" lon="-123.047317">
+    <ele>605.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>FOREST</name>
+    <cmt>FOR060</cmt>
+    <desc>FOR060</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.406717" lon="-123.148367">
+    <ele>302.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>FORT-B</name>
+    <cmt>FOR030</cmt>
+    <desc>FOR030</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.431800" lon="-123.050547">
+    <ele>333.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>GOLD-H</name>
+    <cmt>GOL033</cmt>
+    <desc>GOL033</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.379153" lon="-123.254797">
+    <ele>1164.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>GRANTS</name>
+    <cmt>GRA116</cmt>
+    <desc>GRA116</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.282517" lon="-123.032117">
+    <ele>872.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>HERL-R</name>
+    <cmt>HER087</cmt>
+    <desc>HER087</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.274783" lon="-123.022000">
+    <ele>559.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>HERLIN</name>
+    <cmt>HER055</cmt>
+    <desc>HER055</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.306150" lon="-122.911817">
+    <ele>452.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>HULLRD</name>
+    <cmt>HUL045</cmt>
+    <desc>HUL045</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.287000" lon="-122.984717">
+    <ele>784.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>JACKSO</name>
+    <cmt>JAC078</cmt>
+    <desc>JAC078</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.356869" lon="-122.977675">
+    <ele>855.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>JOHNS</name>
+    <cmt>JOH078</cmt>
+    <desc>JOH078</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.323717" lon="-122.976067">
+    <ele>535.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>JVILLE</name>
+    <cmt>JVI053</cmt>
+    <desc>JVI053</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.312650" lon="-122.959533">
+    <ele>472.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>JVILLZ</name>
+    <cmt>JVI047</cmt>
+    <desc>JVI047</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.231242" lon="-122.927756">
+    <ele>1075.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>LOGGIN</name>
+    <cmt>LOG105</cmt>
+    <desc>LOG105</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.232889" lon="-123.055472">
+    <ele>446.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>LONSWD</name>
+    <cmt>LON044</cmt>
+    <desc>LON044</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.396583" lon="-123.300450">
+    <ele>403.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>LOOPRD</name>
+    <cmt>LOO040</cmt>
+    <desc>LOO040</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.531933" lon="-123.159317">
+    <ele>344.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>MARTIN</name>
+    <cmt>MAR034</cmt>
+    <desc>MAR034</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.102350" lon="-123.091733">
+    <ele>519.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>MIELKE</name>
+    <cmt>MIE051</cmt>
+    <desc>MIE051</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.417100" lon="-123.103533">
+    <ele>717.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>MILLER</name>
+    <cmt>MIL071</cmt>
+    <desc>MIL071</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.303161" lon="-123.104733">
+    <ele>1360.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>MT-ISA</name>
+    <cmt>MT-136</cmt>
+    <desc>MT-136</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.411372" lon="-123.283378">
+    <ele>837.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>MTBALD</name>
+    <cmt>MTB083</cmt>
+    <desc>MTB083</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.088597" lon="-123.075114">
+    <ele>1074.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>MULE-M</name>
+    <cmt>MUL107</cmt>
+    <desc>MUL107</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.347667" lon="-123.333333">
+    <ele>323.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>MURPHY</name>
+    <cmt>MUR032</cmt>
+    <desc>MUR032</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.346817" lon="-122.945050">
+    <ele>427.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NAVAL</name>
+    <cmt>NAV042</cmt>
+    <desc>NAV042</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.239950" lon="-122.946783">
+    <ele>1057.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NELSON</name>
+    <cmt>NEL105</cmt>
+    <desc>NEL105</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.452742" lon="-123.057131">
+    <ele>812.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NUGGET</name>
+    <cmt>NUG081</cmt>
+    <desc>NUG081</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.216117" lon="-123.084217">
+    <ele>818.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>OFF-RG</name>
+    <cmt>OFF081</cmt>
+    <desc>OFF081</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.307739" lon="-123.158911">
+    <ele>1254.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>OLD-BL</name>
+    <cmt>OLD122</cmt>
+    <desc>OLD122</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.152650" lon="-123.054117">
+    <ele>467.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>PHILS</name>
+    <cmt>PHI046</cmt>
+    <desc>PHI046</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.376933" lon="-123.305083">
+    <ele>797.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>PICKET</name>
+    <cmt>PIC079</cmt>
+    <desc>PIC079</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.390067" lon="-123.096750">
+    <ele>957.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>PIKES</name>
+    <cmt>PIK095</cmt>
+    <desc>PIK095</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.265183" lon="-122.956367">
+    <ele>957.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>PORMA</name>
+    <cmt>POR095</cmt>
+    <desc>POR095</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.285844" lon="-123.323047">
+    <ele>1403.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>PRSPCT</name>
+    <cmt>PRS140</cmt>
+    <desc>PRS140</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.226250" lon="-123.169717">
+    <ele>883.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>QTZ-PK</name>
+    <cmt>QTZ088</cmt>
+    <desc>QTZ088</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.274900" lon="-123.086050">
+    <ele>1147.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>RAB-PK</name>
+    <cmt>RAB114</cmt>
+    <desc>RAB114</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.263542" lon="-123.051492">
+    <ele>928.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>RABIES</name>
+    <cmt>RAB092</cmt>
+    <desc>RAB092</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.342900" lon="-123.283450">
+    <ele>425.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>RIESLZ</name>
+    <cmt>RIE042</cmt>
+    <desc>RIE042</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.437617" lon="-123.175817">
+    <ele>307.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>ROGRIV</name>
+    <cmt>ROG030</cmt>
+    <desc>ROG030</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.236483" lon="-123.042283">
+    <ele>472.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>RUCH</name>
+    <cmt>RUC047</cmt>
+    <desc>RUC047</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.500150" lon="-122.974333">
+    <ele>401.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>SAMS</name>
+    <cmt>SAM040</cmt>
+    <desc>SAM040</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.218658" lon="-123.025633">
+    <ele>1006.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>SQUIRS</name>
+    <cmt>SQU098</cmt>
+    <desc>SQU098</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.251350" lon="-122.968550">
+    <ele>983.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>STERCR</name>
+    <cmt>STE098</cmt>
+    <desc>STE098</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.224750" lon="-122.942767">
+    <ele>826.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>STERLI</name>
+    <cmt>STE082</cmt>
+    <desc>STE082</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.283433" lon="-123.123953">
+    <ele>1027.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>SUGARL</name>
+    <cmt>SUG094</cmt>
+    <desc>SUG094</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.121058" lon="-123.310139">
+    <ele>2030.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>SUGRLF</name>
+    <cmt>SUG202</cmt>
+    <desc>SUG202</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.196325" lon="-123.151500">
+    <ele>1530.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>TLWBX</name>
+    <cmt>TLW153</cmt>
+    <desc>TLW153</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.304183" lon="-123.221933">
+    <ele>397.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>TROVIN</name>
+    <cmt>TRO039</cmt>
+    <desc>TRO039</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.537050" lon="-123.334456">
+    <ele>1175.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WALKER</name>
+    <cmt>WAL117</cmt>
+    <desc>WAL117</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.546633" lon="-123.383167">
+    <ele>314.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WALKLZ</name>
+    <cmt>WAL031</cmt>
+    <desc>WAL031</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.253375" lon="-123.139322">
+    <ele>673.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WEL-RG</name>
+    <cmt>WEL067</cmt>
+    <desc>WEL067</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.218733" lon="-123.273850">
+    <ele>428.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WILLMS</name>
+    <cmt>WIL042</cmt>
+    <desc>WIL042</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.543350" lon="-123.146100">
+    <ele>357.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WIMER</name>
+    <cmt>WIM035</cmt>
+    <desc>WIM035</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.222233" lon="-123.245461">
+    <ele>931.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WMS-OL</name>
+    <cmt>WMS093</cmt>
+    <desc>WMS093</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.231350" lon="-123.003614">
+    <ele>1164.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WOODLN</name>
+    <cmt>WOO114</cmt>
+    <desc>WOO114</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.223072" lon="-123.002539">
+    <ele>1260.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WOODRA</name>
+    <cmt>WOO123</cmt>
+    <desc>WOO123</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.148450" lon="-122.953333">
+    <ele>595.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>YALECR</name>
+    <cmt>YAL059</cmt>
+    <desc>YAL059</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.431083" lon="-123.287217">
+    <ele>296.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>AMENT</name>
+    <cmt>AME029</cmt>
+    <desc>AME029</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.249856" lon="-123.044300">
+    <ele>748.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>LW-RAB</name>
+    <cmt>LW-074</cmt>
+    <desc>LW-074</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.093722" lon="-123.097739">
+    <ele>534.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>MULELZ</name>
+    <cmt>MUL053</cmt>
+    <desc>MUL053</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.158536" lon="-123.050994">
+    <ele>482.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>HARTLZ</name>
+    <cmt>HAR048</cmt>
+    <desc>HAR048</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.321803" lon="-122.941983">
+    <ele>439.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>WESTLZ</name>
+    <cmt>WESO43</cmt>
+    <desc>WESO43</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.159519" lon="-123.045797">
+    <ele>469.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>COWHOR</name>
+    <cmt>COW153</cmt>
+    <desc>COW153</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.238511" lon="-123.119344">
+    <ele>408.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>REDLIL</name>
+    <cmt>Red Lily</cmt>
+    <desc>Red Lily</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.222944" lon="-123.051306">
+    <ele>454.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>VLYVW</name>
+    <cmt>Valley View</cmt>
+    <desc>Valley View</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.233711" lon="-123.026006">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ01</name>
+    <cmt>NOZ01-Rottweiler field</cmt>
+    <desc>NOZ01-Rottweiler field</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.239447" lon="-123.028428">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ02</name>
+    <cmt>NOZ02-Toilet Bowl</cmt>
+    <desc>NOZ02-Toilet Bowl</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.236967" lon="-123.067822">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ03</name>
+    <cmt>NOZ03-Rick Mee</cmt>
+    <desc>NOZ03-Rick Mee</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.241794" lon="-123.080069">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ04</name>
+    <cmt>NOZ04-Quady Vinyard</cmt>
+    <desc>NOZ04-Quady Vinyard</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.279008" lon="-123.005933">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ05</name>
+    <cmt>NOZ05-3855 Hwy 238</cmt>
+    <desc>NOZ05-3855 Hwy 238</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.280558" lon="-122.976489">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ06</name>
+    <cmt>NOZ06-Horse Pasture</cmt>
+    <desc>NOZ06-Horse Pasture</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.273222" lon="-122.970911">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ07</name>
+    <cmt>NOZ07-Kurz</cmt>
+    <desc>NOZ07-Kurz</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.257469" lon="-122.881017">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ08</name>
+    <cmt>NOZ08-McAlister</cmt>
+    <desc>NOZ08-McAlister</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.256436" lon="-123.181728">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ09</name>
+    <cmt>NOZ09-Padre Vinyard</cmt>
+    <desc>NOZ09-Padre Vinyard</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.272725" lon="-123.213019">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ10</name>
+    <cmt>NOZ10-Bottroff</cmt>
+    <desc>NOZ10-Bottroff</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="42.293039" lon="-123.222317">
+    <ele>0.0</ele>
+    <time>2018-05-25T03:17:55</time>
+    <name>NOZ11</name>
+    <cmt>NOZ11-Braden</cmt>
+    <desc>NOZ11-Braden</desc>
+    <sym>Dot</sym>
+  </wpt>
+</gpx>

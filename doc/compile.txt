@@ -1,0 +1,6 @@
+sudo apt-get install build-essential csh gfortran m4
+which gfortran
+which cpp
+which gcc
+
+gcc --version

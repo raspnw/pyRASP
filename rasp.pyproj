@@ -1,0 +1,520 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>225aa6eb-a1a1-4358-86ea-bb92eb8c2d4a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>test\test_dataset.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>rasp</Name>
+    <RootNamespace>rasp</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="rasp\utils\netcdf.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\utils\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test\test_dataset.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test\test_elevation_data_geogrid.py" />
+    <Compile Include="test\test_elevation_data_names.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test\test_netcdf_plot.py" />
+    <Compile Include="test\test_namelist_corners.py" />
+    <Compile Include="test\test_wxtofly_redo_raspout.py" />
+    <Compile Include="test\test_wxtofly_redo_blipspots.py" />
+    <Compile Include="test\test_wxtofly_redo_wingrams.py" />
+    <Compile Include="test\test_wxtofly_variables.py" />
+    <Compile Include="test\test_wxtofly_region_publish.py" />
+    <Compile Include="utils\gdal2tiles.py" />
+    <Compile Include="rasp\common\download.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\common\ftp.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\grib\source.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\common\logging.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\common\resources.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\configuration.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wps\elevation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\publish\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test\test_blipspot_json_publish.py" />
+    <Compile Include="test\test_cartopy_1.py" />
+    <Compile Include="test\test_cartopy.py" />
+    <Compile Include="test\test_download.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test\test_gdal.py" />
+    <Compile Include="test\test_install_build.py" />
+    <Compile Include="test\test_install_packages.py" />
+    <Compile Include="test\test_install_ldconfig.py" />
+    <Compile Include="rasp\setup\compile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\setup\configuration.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\setup\packages.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\configuration.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\netcdf.py" />
+    <Compile Include="rasp\postprocess\publish\filecopy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\publish\ftp.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\publish\publishserver.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\publish\publishqueue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\publish\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\variables\colormap.py" />
+    <Compile Include="rasp\modelrun\wps\projection.py" />
+    <Compile Include="rasp\postprocess\ncl\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\rasp.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\variables\configuration.py" />
+    <Compile Include="rasp\postprocess\variables\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\wrf.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test\test_ftp.py" />
+    <Compile Include="test\test_keyring_get.py" />
+    <Compile Include="test\test_kill.py" />
+    <Compile Include="test\test_postprocess_logger.py" />
+    <Compile Include="test\test_region_sites_geocode.py" />
+    <Compile Include="test\test_region_sites.py" />
+    <Compile Include="test\test_netrc.py" />
+    <Compile Include="test\test_logging.py" />
+    <Compile Include="test\test_blipspot_json.py" />
+    <Compile Include="test\test_namelist_bounds.py" />
+    <Compile Include="test\test_run_nested.py" />
+    <Compile Include="test\test_wrf_inc_domain.py" />
+    <Compile Include="test\test_wrf_filename.py" />
+    <Compile Include="test\test_wrf_bounds.py" />
+    <Compile Include="test\test_wxtofly.py" />
+    <Compile Include="test\test_wxtofly_publish_logs.py" />
+    <Compile Include="test\test_wxtofly_log.py" />
+    <Compile Include="test\test_wxtofly_cleanup.py" />
+    <Compile Include="test\test_wxtofly_redo.py" />
+    <Compile Include="test\test_wxtofly_raspout.py" />
+    <Compile Include="test\test_wxtofly_json.py" />
+    <Compile Include="test\test_pipe_client.py" />
+    <Compile Include="test\test_plot_soundings.py" />
+    <Compile Include="test\test_postprocess.py" />
+    <Compile Include="test\test_plot_vars.py" />
+    <Compile Include="test\test_raspout_json.py" />
+    <Compile Include="test\test_keyring_set.py" />
+    <Compile Include="test\test_logging_file.py" />
+    <Compile Include="test\test_publish_server.py" />
+    <Compile Include="test\test_publish.py" />
+    <Compile Include="test\test_pipe_server.py" />
+    <Compile Include="test\test_geog.py" />
+    <Compile Include="test\test_elevation_data.py" />
+    <Compile Include="test\test_wxtofly_cron.py" />
+    <Compile Include="test\test_wxtofly_heartbeat.py" />
+    <Compile Include="test\test_download_srtm_30m.py" />
+    <Compile Include="test\test_height.py" />
+    <Compile Include="test\test_yaml.py" />
+    <Compile Include="test\test_wrf.py" />
+    <Compile Include="test\test_windgrams.py" />
+    <Compile Include="test\test_tiles.py" />
+    <Compile Include="test\test_rainbow.py" />
+    <Compile Include="test\test_raspout.py" />
+    <Compile Include="rasp\setup\dependencies.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\setup\libs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\setup\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\setup\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wrf\ndown.py" />
+    <Compile Include="test\test_run.py" />
+    <Compile Include="rasp\postprocess\ncl\plotgrids.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\postprocess\ncl\runscript.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\common\program.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wps\geogrid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\grib\download.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\grib\downloadmanager.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\grib\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wps\metgrid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\namelistbase.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\region.py" />
+    <Compile Include="rasp\modelrun\run.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wps\namelist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wps\ungrib.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\common\system.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\common\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wps\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wrf\namelist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wrf\real.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wrf\wrf.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\modelrun\wrf\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rasp\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test\test_plotgrids.py" />
+    <Compile Include="test\test_projection.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utils\get_alos_json.py" />
+    <Compile Include="utils\list_alos_files.py" />
+    <Compile Include="utils\get_nasa_srtm_json.py" />
+    <Compile Include="utils\get_nasa_srtm_xml.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utils\srtm30mjson.py" />
+    <Compile Include="utils\srtm90m2geojson.py" />
+    <Compile Include="utils\srtm90mjson.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utils\geogrid_tbl_2_json.py" />
+    <Compile Include="wxtofly\install.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\blipspot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\configuration.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\job.py" />
+    <Compile Include="wxtofly\setup\cron.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\setup\ftplogin.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\setup\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\sites.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\variables.py" />
+    <Compile Include="wxtofly\utils\update.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\cleanup.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\postprocess.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\geocode.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\heartbeat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\run.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\loghandler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\process.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\system.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\utils\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wxtofly\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="doc\" />
+    <Folder Include="NCL_rasp\" />
+    <Folder Include="rasp\config\compile\" />
+    <Folder Include="rasp\modelrun\wps\data\alos\" />
+    <Folder Include="rasp\modelrun\wps\data\csi\" />
+    <Folder Include="rasp\modelrun\wps\data\nasa\" />
+    <Folder Include="rasp\postprocess\rastermaps\" />
+    <Folder Include="rasp\utils\" />
+    <Folder Include="regions\" />
+    <Folder Include="regions\ALPINE-LAKES\" />
+    <Folder Include="regions\CHELAN.old\" />
+    <Folder Include="regions\CHELAN\" />
+    <Folder Include="regions\OR4\" />
+    <Folder Include="regions\PANOCHENEST\" />
+    <Folder Include="regions\PANOCHE\" />
+    <Folder Include="regions\TEST\" />
+    <Folder Include="regions\TIGER\" />
+    <Folder Include="regions\UK12\" />
+    <Folder Include="regions\UK2+1\" />
+    <Folder Include="regions\UK4\" />
+    <Folder Include="regions\WA4\" />
+    <Folder Include="test\" />
+    <Folder Include="rasp\common\" />
+    <Folder Include="rasp\config\" />
+    <Folder Include="rasp\modelrun\grib\" />
+    <Folder Include="rasp\modelrun\wps\" />
+    <Folder Include="rasp\modelrun\wps\data\" />
+    <Folder Include="rasp\modelrun\wrf\" />
+    <Folder Include="rasp\setup\" />
+    <Folder Include="rasp\setup\libs\" />
+    <Folder Include="utils\" />
+    <Folder Include="D:\wxtofly\v3\rasp\rasp\modelrun\wps\data\" />
+    <Folder Include="rasp\" />
+    <Folder Include="D:\wxtofly\v3\rasp\rasp\config\" />
+    <Folder Include="D:\wxtofly\v3\rasp\rasp\modelrun\grib\" />
+    <Folder Include="D:\wxtofly\v3\rasp\rasp\setup\" />
+    <Folder Include="rasp\modelrun\" />
+    <Folder Include="rasp\postprocess\" />
+    <Folder Include="D:\wxtofly\v3\rasp\rasp\postprocess\rastermaps\" />
+    <Folder Include="rasp\postprocess\ncl\" />
+    <Folder Include="rasp\postprocess\publish\" />
+    <Folder Include="rasp\postprocess\variables\" />
+    <Folder Include="D:\wxtofly\v3\rasp\rasp\common\" />
+    <Folder Include="D:\wxtofly\v3\rasp\rasp\modelrun\wps\" />
+    <Folder Include="D:\wxtofly\v3\rasp\rasp\modelrun\wrf\" />
+    <Folder Include="wxtofly\" />
+    <Folder Include="wxtofly\config\" />
+    <Folder Include="wxtofly\data\" />
+    <Folder Include="wxtofly\setup\" />
+    <Folder Include="wxtofly\utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="doc\compile.txt" />
+    <Content Include="doc\connect.txt" />
+    <Content Include="doc\How to use SRTM Topographical Data with RASP.pdf" />
+    <Content Include="doc\install.txt" />
+    <Content Include="doc\machine_install.txt" />
+    <Content Include="doc\mount_share.txt" />
+    <Content Include="doc\python_packages.txt" />
+    <Content Include="NCL_rasp\calc_funcs.ncl" />
+    <Content Include="NCL_rasp\colourlevels.ncl" />
+    <Content Include="NCL_rasp\getvars.ncl" />
+    <Content Include="NCL_rasp\labelbar.ncl" />
+    <Content Include="NCL_rasp\opts_bg.ncl" />
+    <Content Include="NCL_rasp\opts_cn.ncl" />
+    <Content Include="NCL_rasp\opts_sounding.ncl" />
+    <Content Include="NCL_rasp\opts_v.ncl" />
+    <Content Include="NCL_rasp\opts_ws.ncl" />
+    <Content Include="NCL_rasp\opts_xbl.ncl" />
+    <Content Include="NCL_rasp\pgwind.rgb" />
+    <Content Include="NCL_rasp\plotgrids.ncl" />
+    <Content Include="NCL_rasp\plot_funcs.ncl" />
+    <Content Include="NCL_rasp\rasp.ncl" />
+    <Content Include="NCL_rasp\rasp.region_data.ncl" />
+    <Content Include="NCL_rasp\rasp.region_data.ncl.template" />
+    <Content Include="NCL_rasp\rasp.site_load.contour-parameter.ncl" />
+    <Content Include="NCL_rasp\rasp.site_load.pressure-level.ncl" />
+    <Content Include="NCL_rasp\rasp.site_load.skewt.ncl" />
+    <Content Include="NCL_rasp\rasp.site_load.wind.ncl" />
+    <Content Include="NCL_rasp\rasp.site_load.xbl.ncl" />
+    <Content Include="NCL_rasp\raspout.nc" />
+    <Content Include="NCL_rasp\skewt_func.ncl" />
+    <Content Include="NCL_rasp\utils.ncl" />
+    <Content Include="NCL_rasp\windgrams.ncl" />
+    <Content Include="NCL_rasp\wks.ncl" />
+    <Content Include="NCL_rasp\wrf2gm.ncl" />
+    <Content Include="NCL_rasp\wrf_plot.ncl" />
+    <Content Include="NCL_rasp\wrf_to_rasp.ncl" />
+    <Content Include="NCL_rasp\wrf_user_mass.ncl" />
+    <Content Include="NCL_rasp\xbl.ncl" />
+    <Content Include="rasp\config\compile\wrf4.1.yaml" />
+    <Content Include="rasp\config\elevation.yaml" />
+    <Content Include="rasp\config\publish.yaml" />
+    <Content Include="rasp\config\model_run.yaml" />
+    <Content Include="rasp\config\system.yaml" />
+    <Content Include="rasp\config\logging.cfg" />
+    <Content Include="rasp\config\rasp_variables.yaml" />
+    <Content Include="rasp\config\grib.yaml" />
+    <Content Include="rasp\config\postprocess.yaml" />
+    <Content Include="rasp\config\region_template.yaml" />
+    <Content Include="rasp\modelrun\wps\data\alos\AW3D30.json" />
+    <Content Include="rasp\modelrun\wps\data\csi\srtm30_30x30.json" />
+    <Content Include="rasp\modelrun\wps\data\csi\srtm30_5x5.json" />
+    <Content Include="rasp\modelrun\wps\data\nasa\SRTMGL1.003.json" />
+    <Content Include="rasp\modelrun\wps\data\nasa\SRTMGL3.003.json" />
+    <Content Include="rasp\modelrun\wps\data\srtm30m.json" />
+    <Content Include="regions\ALPINE-LAKES\namelist.input" />
+    <Content Include="regions\ALPINE-LAKES\namelist.wps" />
+    <Content Include="regions\ALPINE-LAKES\region.yaml" />
+    <Content Include="regions\ALPINE-LAKES\sites.json" />
+    <Content Include="regions\ALPINE-LAKES\TigerTagWaypoints.wpt" />
+    <Content Include="regions\CHELAN.old\Chelan_2018_Waypoints.wpt" />
+    <Content Include="regions\CHELAN.old\namelist.input" />
+    <Content Include="regions\CHELAN.old\namelist.wps" />
+    <Content Include="regions\CHELAN.old\region.yaml" />
+    <Content Include="regions\CHELAN\namelist.input" />
+    <Content Include="regions\CHELAN\namelist.wps" />
+    <Content Include="regions\CHELAN\region.yaml" />
+    <Content Include="regions\CHELAN\sites.json" />
+    <Content Include="regions\CHELAN\TigerTagWaypoints.wpt" />
+    <Content Include="regions\OR4\2018_applegate.cup" />
+    <Content Include="regions\OR4\2018_applegate.gpx" />
+    <Content Include="regions\OR4\2018_applegate_geo.wpt" />
+    <Content Include="regions\OR4\2018_applegate_ozi.wpt" />
+    <Content Include="regions\OR4\namelist.input" />
+    <Content Include="regions\OR4\namelist.wps" />
+    <Content Include="regions\OR4\region.yaml" />
+    <Content Include="regions\PANOCHENEST\namelist.bad" />
+    <Content Include="regions\PANOCHENEST\namelist.good" />
+    <Content Include="regions\PANOCHENEST\namelist.input" />
+    <Content Include="regions\PANOCHENEST\namelist.wps" />
+    <Content Include="regions\PANOCHENEST\region.yaml" />
+    <Content Include="regions\PANOCHENEST\sites.csv" />
+    <Content Include="regions\PANOCHENEST\sites.json" />
+    <Content Include="regions\PANOCHENEST\wps_show_dom.png" />
+    <Content Include="regions\PANOCHE\namelist.input" />
+    <Content Include="regions\PANOCHE\namelist.wps" />
+    <Content Include="regions\PANOCHE\region.yaml" />
+    <Content Include="regions\PANOCHE\sites.csv" />
+    <Content Include="regions\PANOCHE\sites.json" />
+    <Content Include="regions\PANOCHE\wps_show_dom.png" />
+    <Content Include="regions\TEST\namelist.input" />
+    <Content Include="regions\TEST\namelist.wps" />
+    <Content Include="regions\TEST\region.yaml" />
+    <Content Include="regions\TEST\sites.json" />
+    <Content Include="regions\TEST\TigerTagWaypoints.wpt" />
+    <Content Include="regions\TIGER\namelist.input" />
+    <Content Include="regions\TIGER\namelist.wps" />
+    <Content Include="regions\TIGER\region.yaml" />
+    <Content Include="regions\TIGER\sites.json" />
+    <Content Include="regions\TIGER\TigerTagWaypoints.wpt" />
+    <Content Include="regions\UK12\geogrid.log" />
+    <Content Include="regions\UK12\GEOGRID.TBL.SRTM" />
+    <Content Include="regions\UK12\namelist.input" />
+    <Content Include="regions\UK12\namelist.input.template" />
+    <Content Include="regions\UK12\namelist.output" />
+    <Content Include="regions\UK12\namelist.wps" />
+    <Content Include="regions\UK12\namelist.wps.template" />
+    <Content Include="regions\UK12\rasp.run.parameters.UK12" />
+    <Content Include="regions\UK12\region.yaml" />
+    <Content Include="regions\UK12\wrfsi.nl" />
+    <Content Include="regions\UK2+1\geogrid.log" />
+    <Content Include="regions\UK2+1\namelist.input.template" />
+    <Content Include="regions\UK2+1\namelist.wps" />
+    <Content Include="regions\UK2+1\namelist.wps.template" />
+    <Content Include="regions\UK2+1\rasp.run.parameters.UK2+1" />
+    <Content Include="regions\UK2+1\wrfsi.nl" />
+    <Content Include="regions\UK4\namelist.input" />
+    <Content Include="regions\UK4\namelist.wps" />
+    <Content Include="regions\UK4\region.yaml" />
+    <Content Include="regions\WA4\namelist.input" />
+    <Content Include="regions\WA4\namelist.wps" />
+    <Content Include="regions\WA4\region.yaml" />
+    <Content Include="regions\WA4\sites.json" />
+    <Content Include="regions\WA4\TigerTagWaypoints.wpt" />
+    <Content Include="TODO.txt" />
+    <Content Include="utils\alos.txt" />
+    <Content Include="utils\AW3D30.json" />
+    <Content Include="utils\aw3d30v22_product_e.pdf" />
+    <Content Include="utils\srtm90m_topo.json" />
+    <Content Include="rasp\modelrun\wps\data\srtm90m.json" />
+    <Content Include="utils\srtm30m_bounding_boxes.json" />
+    <Content Include="wxtofly\config\logging.cfg" />
+    <Content Include="wxtofly\config\wxtofly.yaml" />
+    <Content Include="wxtofly\data\countries.json" />
+    <Content Include="wxtofly\data\us_counties.json" />
+    <Content Include="wxtofly\data\us_states.json" />
+    <Content Include="wxtofly\data\jobs.json" />
+    <Content Include="wxtofly\data\WA_DNR_Regions.geojson" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

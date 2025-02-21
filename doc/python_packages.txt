@@ -1,0 +1,2 @@
+sudo apt-get install python3-pip
+sudo pip3 install f90nml keyring netCDF4 numpy pytz scipy timezonefinder ruamel.yaml

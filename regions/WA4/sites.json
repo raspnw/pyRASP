@@ -1,0 +1,1109 @@
+[
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Alta_Mountain",
+        "lat":  "47.44114",
+        "lon":  "-121.33289",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Chimney_Rock",
+        "lat":  "47.5083",
+        "lon":  "-121.28903",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Cleman",
+        "lat":  "46.835715",
+        "lon":  "-120.893219",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Crystal_Mt",
+        "lat":  "46.934",
+        "lon":  "-121.5",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Dinosaur",
+        "lat":  "46.8125",
+        "lon":  "-122.585",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Dog",
+        "lat":  "46.489",
+        "lon":  "-122.173",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Domerie",
+        "lat":  "47.266184",
+        "lon":  "-121.127815",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Eagle_Creek",
+        "lat":  "47.6685",
+        "lon":  "-120.5601",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Enchantments",
+        "lat":  "47.488",
+        "lon":  "-120.801",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Icicle_Ridge",
+        "lat":  "47.563",
+        "lon":  "-120.723",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Lion_Rock",
+        "lat":  "47.268",
+        "lon":  "-120.586",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "MissionPeak",
+        "lat":  "47.284819",
+        "lon":  "-120.442486",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Mt_Adams",
+        "lat":  "46.20237",
+        "lon":  "-121.49105",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Mt_St_Helens",
+        "lat":  "46.1914",
+        "lon":  "-122.19555",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "PochPeak",
+        "lat":  "46.953543",
+        "lon":  "-121.929131",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Rainier",
+        "lat":  "46.85284",
+        "lon":  "-121.760126",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Rampart",
+        "lat":  "47.38733",
+        "lon":  "-121.36333",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "RedTop",
+        "lat":  "47.302981",
+        "lon":  "-120.759087",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Round_Mt",
+        "lat":  "47.79731",
+        "lon":  "-120.81699",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Silver_Star",
+        "lat":  "45.755",
+        "lon":  "-122.2425",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Snowgrass",
+        "lat":  "47.68573",
+        "lon":  "-120.934868",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Tibbetts",
+        "lat":  "47.573",
+        "lon":  "-120.488",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Tieton",
+        "lat":  "46.638122",
+        "lon":  "-121.126442",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Tumwater",
+        "lat":  "47.597",
+        "lon":  "-120.695",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Central Cascades",
+        "name":  "Twin_Bowls",
+        "lat":  "46.3141",
+        "lon":  "-122.4146",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Baldy",
+        "lat":  "46.798297",
+        "lon":  "-120.427008",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Chelan",
+        "lat":  "47.81",
+        "lon":  "-120.03",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Eagle_Butte",
+        "lat":  "46.189",
+        "lon":  "-119.338",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Farmer",
+        "lat":  "47.61",
+        "lon":  "-119.82",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "FrenchmanHills",
+        "lat":  "46.992197",
+        "lon":  "-119.904814",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Inkler",
+        "lat":  "48.191",
+        "lon":  "-117.737",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Kiona",
+        "lat":  "46.2492",
+        "lon":  "-119.52816",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Mansfield",
+        "lat":  "47.82",
+        "lon":  "-119.65",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Parker",
+        "lat":  "48.252",
+        "lon":  "-117.658",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Saddle",
+        "lat":  "46.82585",
+        "lon":  "-119.87483",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "SaddleT",
+        "lat":  "46.8",
+        "lon":  "-119.7",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Steptoe",
+        "lat":  "47.031",
+        "lon":  "-117.296",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Swakane",
+        "lat":  "47.58003",
+        "lon":  "-120.31043",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Tekoa",
+        "lat":  "47.255",
+        "lon":  "-117.115",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Wahitis_Peak",
+        "lat":  "46.806",
+        "lon":  "-119.559",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Eastern",
+        "name":  "Wrights",
+        "lat":  "48.212",
+        "lon":  "-117.766",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Boston_Peak",
+        "lat":  "48.49568",
+        "lon":  "-121.0365",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Bowen",
+        "lat":  "48.4675151",
+        "lon":  "-120.105028",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Carne_Mt",
+        "lat":  "48.08784",
+        "lon":  "-120.80395",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Church_Mt",
+        "lat":  "48.927991",
+        "lon":  "-121.872999",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Eldorado_Peak",
+        "lat":  "48.53763",
+        "lon":  "-121.13428",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Ellemeham_Mt",
+        "lat":  "48.930909",
+        "lon":  "-119.620741",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "GlacierPk",
+        "lat":  "48.114194",
+        "lon":  "-121.112781",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Goat_Peak",
+        "lat":  "48.634",
+        "lon":  "-120.403",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Iron",
+        "lat":  "48.48",
+        "lon":  "-121.94",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "LibertyBell",
+        "lat":  "48.515695",
+        "lon":  "-120.656376",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Lookout_Mountain",
+        "lat":  "48.55221",
+        "lon":  "-121.32937",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Mazama",
+        "lat":  "48.59",
+        "lon":  "-120.4",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "McAllester_Mt",
+        "lat":  "48.39812",
+        "lon":  "-120.6534",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "MtBaker",
+        "lat":  "48.775198",
+        "lon":  "-121.811142",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Penthouse",
+        "lat":  "48.333",
+        "lon":  "-121.713",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Pilchuck",
+        "lat":  "48.057732",
+        "lon":  "-121.792871",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Sauk",
+        "lat":  "48.52",
+        "lon":  "-121.6",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Silver_Star",
+        "lat":  "48.549",
+        "lon":  "-120.587",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Snowking",
+        "lat":  "48.407782",
+        "lon":  "-121.277504",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Stickney",
+        "lat":  "47.910819",
+        "lon":  "-121.61396",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "TableMt",
+        "lat":  "48.779",
+        "lon":  "-121.658",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "TupshinPk",
+        "lat":  "48.29701",
+        "lon":  "-120.75031",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "TwinSisters",
+        "lat":  "48.708182",
+        "lon":  "-121.98555",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Washington_Pass",
+        "lat":  "48.501",
+        "lon":  "-120.656",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Whitechuck",
+        "lat":  "48.207287",
+        "lon":  "-121.414833",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North Cascades",
+        "name":  "Whitehorse",
+        "lat":  "48.211233",
+        "lon":  "-121.677547",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Anderson",
+        "lat":  "48.6471",
+        "lon":  "-122.2631",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "AndersonLZ",
+        "lat":  "48.67215",
+        "lon":  "-122.264828",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Arlington",
+        "lat":  "48.165",
+        "lon":  "-122.15",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BigFoot",
+        "lat":  "48.7785",
+        "lon":  "-122.238",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BJ",
+        "lat":  "48.86",
+        "lon":  "-122.11",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BJ35",
+        "lat":  "48.849",
+        "lon":  "-122.059",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BJHG",
+        "lat":  "48.8595",
+        "lon":  "-122.097",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BJLZN",
+        "lat":  "48.86",
+        "lon":  "-122.145",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BJLZS",
+        "lat":  "48.8535",
+        "lon":  "-122.144",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BJN",
+        "lat":  "48.876",
+        "lon":  "-122.11",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BJPortBailoutLZ",
+        "lat":  "48.813",
+        "lon":  "-122.131",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Black",
+        "lat":  "48.982",
+        "lon":  "-122.006",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BlackLZ",
+        "lat":  "48.9657",
+        "lon":  "-122.07",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BlackNo",
+        "lat":  "48.99",
+        "lon":  "-122.042",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Blanchard",
+        "lat":  "48.615",
+        "lon":  "-122.4",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "BlanchardLZ",
+        "lat":  "48.57",
+        "lon":  "-122.4",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Casino",
+        "lat":  "48.83523",
+        "lon":  "-122.1993",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Cultus",
+        "lat":  "48.43361",
+        "lon":  "-122.16248",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "HarveyField",
+        "lat":  "47.906",
+        "lon":  "-122.101",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "JordanRidge",
+        "lat":  "48.13585",
+        "lon":  "-121.981316",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "KBLI",
+        "lat":  "48.79944",
+        "lon":  "-122.53917",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "KBVS",
+        "lat":  "48.47083",
+        "lon":  "-122.42083",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Lippy1",
+        "lat":  "48.9569",
+        "lon":  "-122.05",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Lookout",
+        "lat":  "48.68",
+        "lon":  "-122.36",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Lyman",
+        "lat":  "48.5948",
+        "lon":  "-122.1611",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "N_Nooksack_Valley",
+        "lat":  "48.8895",
+        "lon":  "-122.149",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "NPorter",
+        "lat":  "48.8352",
+        "lon":  "-122.088",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Red",
+        "lat":  "48.932",
+        "lon":  "-122.118",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "RUC_bli_compare",
+        "lat":  "48.74",
+        "lon":  "-122.38",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Serpentine",
+        "lat":  "48.95",
+        "lon":  "-122.17",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "SPorter",
+        "lat":  "48.813",
+        "lon":  "-122.099",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Stewart",
+        "lat":  "48.77",
+        "lon":  "-122.27",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "StewartLZ",
+        "lat":  "48.77",
+        "lon":  "-122.39",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "StickyL",
+        "lat":  "48.97",
+        "lon":  "-122.02",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "Sumas",
+        "lat":  "48.9211",
+        "lon":  "-122.229",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "SumasLZ",
+        "lat":  "48.92",
+        "lon":  "-122.29",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "North-West",
+        "name":  "SumasNE",
+        "lat":  "48.93",
+        "lon":  "-122.167",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Olympic",
+        "name":  "Blynn",
+        "lat":  "48.0033",
+        "lon":  "-122.9688",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Olympic",
+        "name":  "Jupiter",
+        "lat":  "47.687",
+        "lon":  "-122.964",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Olympic",
+        "name":  "Mt_Ellinor",
+        "lat":  "47.52153",
+        "lon":  "-123.26125",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Puget Sound",
+        "name":  "Ebey",
+        "lat":  "48.22",
+        "lon":  "-122.76",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Puget Sound",
+        "name":  "Ft_Flagler",
+        "lat":  "48.1",
+        "lon":  "-122.69",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Puget Sound",
+        "name":  "KNUW",
+        "lat":  "48.34917",
+        "lon":  "-122.65056",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Puget Sound",
+        "name":  "Padilla",
+        "lat":  "48.46389",
+        "lon":  "-122.46806",
+        "region":  "PNW",
+        "domain":  "PNW-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Puget Sound",
+        "name":  "Smith_Is",
+        "lat":  "48.318",
+        "lon":  "-122.843",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Southern",
+        "name":  "Bingen",
+        "lat":  "45.715",
+        "lon":  "-121.4633",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Southern",
+        "name":  "Cliffside",
+        "lat":  "45.729",
+        "lon":  "-120.7232",
+        "region":  "PNWRAT",
+        "domain":  "PNWRAT"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "Bergseth",
+        "lat":  "47.243289",
+        "lon":  "-121.924084",
+        "region":  "PNW",
+        "domain":  "PNW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "Carnation",
+        "lat":  "47.64334",
+        "lon":  "-121.93639",
+        "region":  "PNW",
+        "domain":  "TIGER-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "McDonald",
+        "lat":  "47.33466",
+        "lon":  "-121.88212",
+        "region":  "PNW",
+        "domain":  "TIGER-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "Mt_Washington",
+        "lat":  "47.426",
+        "lon":  "-121.69885",
+        "region":  "PNW",
+        "domain":  "TIGER-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "MtSi",
+        "lat":  "47.507751",
+        "lon":  "-121.739688",
+        "region":  "PNW",
+        "domain":  "TIGER-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "SquakMountain",
+        "lat":  "47.50434",
+        "lon":  "-122.04735",
+        "region":  "PNW",
+        "domain":  "TIGER-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "Tiger",
+        "lat":  "47.503",
+        "lon":  "-121.975",
+        "region":  "PNW",
+        "domain":  "TIGER-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "TigerHikeLookout",
+        "lat":  "47.508",
+        "lon":  "-121.985",
+        "region":  "PNW",
+        "domain":  "TIGER-WINDOW"
+    },
+    {
+        "state":  "Washington",
+        "area":  "Tiger Area",
+        "name":  "TigerLZ",
+        "lat":  "47.498",
+        "lon":  "-122.021",
+        "region":  "PNW",
+        "domain":  "TIGER-WINDOW"
+    }
+]

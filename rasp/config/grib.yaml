@@ -1,0 +1,120 @@
+#
+# GRIB File Sources Configuration File
+#
+
+# GRIB source name
+# The value of this node is arbitrary and 
+#  is used to reference GRIB source from region configuration
+NAMCONUS40:
+  # GRIB source description
+  description: 'NAM 212 AWIPS Grid - Regional - CONUS Double Resolution (40-km Resolution)'
+  # Time interval in hours between GRIB files
+  interval_hours: 3
+  # Protocol and server to use to download files
+  protocol: 'https'
+  server: 'nomads.ncep.noaa.gov'
+  # Download URL path and filename. Following values are evaluated during the model run
+  #   init_date: [datatime.date] initiation date
+  #   init_time: [int] initialization UTC time hour
+  #   forecast_hour: [int] forecast UTC time hour
+  url_path_format: 'pub/data/nccf/com/nam/prod/nam.{init_date:%Y%m%d}'
+  url_file_format: 'nam.t{init_time:02}z.awip3d{forecast_hour:02}.tm00.grib2'
+  # Variable table name used by ungrib program
+  ungrib_vtable: 'Vtable.NAM'
+  model_cycles: [0, 6, 12, 18]
+
+# GRIB source name
+NAMCONUS12:
+  # GRIB source description
+  description: 'NAM 218 AWIPS Grid - CONUS (12-km Resolution; full complement of pressure level fields and some surface-based fields)'
+  # Time interval in hours between GRIB files
+  interval_hours: 3
+  # Protocol and server to use to download files
+  protocol: 'https'
+  server: 'nomads.ncep.noaa.gov'
+  # Download URL path and filename. Following values are evaluated during the model run
+  #   init_date: [datatime.date] initiation date
+  #   init_time: [int] initialization UTC time hour
+  #   forecast_hour: [int] forecast UTC time hour
+  url_path_format: 'pub/data/nccf/com/nam/prod/nam.{init_date:%Y%m%d}'
+  url_file_format: 'nam.t{init_time:02}z.awphys{forecast_hour:02}.tm00.grib2'
+  # [optional] nomads.ncep.noaa.gov filter url
+  #  nomads.ncep.noaa.gov allows downloading subregions of the full files using this url
+  nomads_filter_url: 'http://nomads.ncep.noaa.gov/cgi-bin/filter_nam.pl'
+  # [optional] If set to Yes, the nomads.ncep.noaa.gov filter is used
+  use_nomads_filter: true
+  # Variable table name used by ungrib program
+  ungrib_vtable: 'Vtable.NAM'
+  model_cycles: [0, 6, 12, 18]
+
+NAMCONUS12_NOFILTER:
+  # GRIB source description
+  description: 'NAM 218 AWIPS Grid - CONUS (12-km Resolution; full complement of pressure level fields and some surface-based fields)'
+  # Time interval in hours between GRIB files
+  interval_hours: 3
+  # Protocol and server to use to download files
+  protocol: 'https'
+  server: 'nomads.ncep.noaa.gov'
+  # Download URL path and filename. Following values are evaluated during the model run
+  #   init_date: [datatime.date] initiation date
+  #   init_time: [int] initialization UTC time hour
+  #   forecast_hour: [int] forecast UTC time hour
+  url_path_format: 'pub/data/nccf/com/nam/prod/nam.{init_date:%Y%m%d}'
+  url_file_format: 'nam.t{init_time:02}z.awphys{forecast_hour:02}.tm00.grib2'
+  # [optional] nomads.ncep.noaa.gov filter url
+  #  nomads.ncep.noaa.gov allows downloading subregions of the full files using this url
+  nomads_filter_url: 'http://nomads.ncep.noaa.gov/cgi-bin/filter_nam.pl'
+  # [optional] If set to Yes, the nomads.ncep.noaa.gov filter is used
+  use_nomads_filter: false
+  # Variable table name used by ungrib program
+  ungrib_vtable: 'Vtable.NAM'
+  model_cycles: [0, 6, 12, 18]
+
+# GRIB source name
+NAMCONUSNEST:
+  # GRIB source description
+  description: 'NAM NEST over CONUS (5 km Resolution - Grid 227)'
+  # Time interval in hours between GRIB files
+  interval_hours: 1
+  # Protocol and server to use to download files
+  protocol: 'https'
+  server: 'nomads.ncep.noaa.gov'
+  # Download URL path and filename. Following values are evaluated during the model run
+  #   init_date: [datatime.date] initiation date
+  #   init_time: [int] initialization UTC time hour
+  #   forecast_hour: [int] forecast UTC time hour
+  url_path_format: 'pub/data/nccf/com/nam/prod/nam.{init_date:%Y%m%d}'
+  url_file_format: 'nam.t{init_time:02}z.conusnest.hiresf{forecast_hour:02}.tm00.grib2'
+  # [optional] nomads.ncep.noaa.gov filter url
+  #  nomads.ncep.noaa.gov allows downloading subregions of the full files using this url
+  nomads_filter_url: 'http://nomads.ncep.noaa.gov/cgi-bin/filter_nam.pl'
+  # [optional] If set to Yes, the nomads.ncep.noaa.gov filter is used
+  use_nomads_filter: true
+  # Variable table name used by ungrib program
+  ungrib_vtable: 'Vtable.NAM'
+  model_cycles: [0, 6, 12, 18]
+  forecast_range: [0, 60]
+
+# GRIB source name
+GFS025:
+  # GRIB source description
+  description: 'GFS - Global longitude-latitude grid (0.25 degree resolution)'
+  # Time interval in hours between GRIB files
+  interval_hours: 3
+  # Protocol and server to use to download files
+  protocol: 'https'
+  server: 'nomads.ncep.noaa.gov'
+  # Download URL path and filename. Following values are evaluated during the model run
+  #   init_date: [datatime.date] initiation date
+  #   init_time: [int] initialization UTC time hour
+  #   forecast_hour: [int] forecast UTC time hour
+  url_path_format: 'pub/data/nccf/com/gfs/prod/gfs.{init_date:%Y%m%d}{init_time:02}'
+  url_file_format: 'gfs.t{init_time:02}z.pgrb2.0p25.f{forecast_hour:03}'
+  # [optional] nomads.ncep.noaa.gov filter url
+  #  nomads.ncep.noaa.gov allows downloading subregions of the full files using this url
+  nomads_filter_url: 'http://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl'
+  # [optional] If set to Yes, the nomads.ncep.noaa.gov filter is used
+  use_nomads_filter: true
+  # Variable table name used by ungrib program
+  ungrib_vtable: 'Vtable.GFS'
+  model_cycles: [0, 6, 12, 18]

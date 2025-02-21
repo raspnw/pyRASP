@@ -1,0 +1,12 @@
+f90nml
+netCDF4
+pytz
+timezonefinder
+ruamel.yaml
+pyproj
+psutil
+python-crontab
+py-cpuinfo
+bs4
+matplotlib
+shapely
